@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+
+<h3>List of students</h3>
+
+{% for row in fio %}
+    <p>{{ row }}</p>
+{% endfor %}
+
+<p> {{ x }} + {{ y }} = {{ x+y }}</p>
+
+</body>
+</html>
